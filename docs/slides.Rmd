@@ -1,0 +1,46 @@
+---
+title: "slides"
+output: revealjs::revealjs_presentation
+author: "Rashid Mammadov"
+date: "2024-09-22"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Revealjs
+
+This is an revealjs slides. 
+
+```{r cars}
+summary(cars)
+```
+
+## Second page
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+## Third page
+
+Let us look at a simple code.
+
+```{r}
+# This is an example of a simple R code that generates a sequence of numbers and computes their sum
+numbers <- 1:5
+sum_numbers <- sum(numbers)
+
+# Output the sum
+sum_numbers
+```
+## Last Page
+
+```{r}
+# Printing
+print("Hello")
+```
